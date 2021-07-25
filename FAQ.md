@@ -4,14 +4,14 @@
 
 ## >> Guide to customize the plugin
 
-### Step 1: Find the `Product ID` and the `Vendor ID` of your card reader (see below) and convert them to decimal values.
-### Step 2: Download the latest release version.
-### Step 3: Open `Info.plist` in `GenericCardReaderFriend.kext/Contents`.
-### Step 4: Locate the `GenericUSBCardReaderController` entry under `IOKitPersonalities`.
-### Step 5: Replace the value of `idProduct` with your **decimal** product id you found in Step 1.
-### Step 6: Replace the value of `idVendor` with your **decimal** product id you found in Step 1.
-### Step 7: You may change the value of `Physical Interconnect Location` to `External` (see below).
-### Step 8: Save your changes and install the driver.
+**Step 1:** Find the `Product ID` and the `Vendor ID` of your card reader (see below) and convert them to decimal values.  
+**Step 2:** Download the latest release version.  
+**Step 3:** Open `Info.plist` in `GenericCardReaderFriend.kext/Contents`.  
+**Step 4:** Locate the `GenericUSBCardReaderController` entry under `IOKitPersonalities`.  
+**Step 5:** Replace the value of `idProduct` with your **decimal** product id you found in Step 1.  
+**Step 6:** Replace the value of `idVendor` with your **decimal** product id you found in Step 1.  
+**Step 7:** You may change the value of `Physical Interconnect Location` to `External` (see below).  
+**Step 8:** Save your changes and install the driver.  
 
 ## >> How do I find the product and the vendor ID of my card reader?
 Open `System Information` and click the tab `USB`.  
