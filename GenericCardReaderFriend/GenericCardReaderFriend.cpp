@@ -208,7 +208,7 @@ PluginConfiguration ADDPR(config) =
     arrsize(bootargDebug),
     bootargBeta,
     arrsize(bootargBeta),
-    KernelVersion::Mojave,
+    KernelVersion::ElCapitan,
     KernelVersion::Monterey,
     start
 };
