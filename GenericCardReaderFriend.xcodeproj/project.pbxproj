@@ -447,7 +447,7 @@
 				MODULE_NAME = science.firewolf.gcrf;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
-				MODULE_VERSION = 1.0.2;
+				MODULE_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = science.firewolf.gcrf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -475,11 +475,11 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = "$(MODULE_VERSION)";
 				MODULE_NAME = science.firewolf.gcrf;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
-				MODULE_VERSION = 1.0.2;
+				MODULE_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = science.firewolf.gcrf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
