@@ -7,6 +7,7 @@ A Lilu plugin that makes System Information recognize your builtin USB card read
 ![](Assets/Screenshot.png)
 
 ## Supported Systems
+- macOS Ventura
 - macOS Monterey
 - macOS Big Sur  
 - macOS Catalina  
