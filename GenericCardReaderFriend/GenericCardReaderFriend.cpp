@@ -209,6 +209,6 @@ PluginConfiguration ADDPR(config) =
     bootargBeta,
     arrsize(bootargBeta),
     KernelVersion::ElCapitan,
-    KernelVersion::Ventura,
+    KernelVersion::Sonoma,
     start
 };
